@@ -4,4 +4,7 @@
        > kubectl apply -f deployment.yaml
        > minikube service dockube-minikube-a
 ```
-## To change the tunneling port, name/type of the service-> deployment.yaml 
+# If tunneling fails automatically 
+``` 
+       > minikube tunnel
+```
